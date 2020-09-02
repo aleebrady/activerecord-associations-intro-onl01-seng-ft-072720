@@ -1,6 +1,6 @@
 class Artist < ActiveRecord::Base
   
   has_many :songs 
-  has_may :genres, through: :songs 
+  has_many :genres, through: :songs 
   
 end
